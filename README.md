@@ -21,8 +21,8 @@ I tried to build three models i.e. Linear Regression, Decision Trees and Random 
 
 A feature called threshold was engineered which measured how well the answers were received (Precisely speaking, I used 70% quantile). 
 
-I tried to cap the outliers which lie over 90% of the data to the maximum but it didn't help. 
+I tried to *cap the outliers which were over 90 percentile of the data to the 90th percentile value* but it didn't help. 
 
-Then I eliminated extreme outliers from the "Views" column which helped better the evaluation metric.
+Then I *eliminated extreme outliers from the "Views"* column which helped better the evaluation metric.
 
-The least obtained rmse was 1088 for which Random Forest Regressor was used with 10 as the max depth and 25 as the number of estimators in the tree.
+The *least obtained rmse* was **1088** for which *Random Forest Regressor* was used with 10 as the max depth and 25 as the number of estimators in the tree.
